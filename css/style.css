@@ -6,15 +6,23 @@
 }
 
 .container {
-  display: grid;
+  display: flex;
   height: 40rem;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 50px 50px;
-  gap: 5px;
-  justify-content: center;
-  align-items: center;
   background: violet;
   box-shadow: 2px grey;
   width: 55vw;
   margin: 7rem auto;
+}
+
+.cards,
+.descriptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallet {
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: space-between;
 }
