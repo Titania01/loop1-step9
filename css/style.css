@@ -12,15 +12,34 @@ body {
 
 .container {
   display: flex;
-  height: 35rem;
+  height: 25rem;
   background: #ffffff;
   box-shadow: 2px grey;
-  width: 50vw;
+  width: 45vw;
   margin: 7rem auto;
 }
 
 .cards {
   background: #f2f2f2;
+  height: 25rem;
+  /* width: 16rem; */
+  overflow: hidden;
+}
+
+.cards:hover {
+  overflow-y:scroll;
+}
+
+.description {
+  overflow-y: hidden;
+  height: 25em;
+  width: 33em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.description:hover {
+  overflow-y: scroll
 }
 
 .wallet {
