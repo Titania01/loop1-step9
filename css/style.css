@@ -7,39 +7,38 @@
 
 body {
   background: #f7cd75;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 
 .container {
   display: flex;
-  height: 25rem;
+  height: 32rem;
   background: #ffffff;
   box-shadow: 2px grey;
-  width: 45vw;
+  width: 50vw;
   margin: 7rem auto;
 }
 
 .cards {
   background: #f2f2f2;
-  height: 25rem;
-  /* width: 16rem; */
+  height: 32rem;
   overflow: hidden;
+  width: 22rem;
 }
 
 .cards:hover {
   overflow-y:scroll;
+
 }
 
 .description {
   overflow-y: hidden;
-  height: 25em;
-  width: 33em;
-  padding-left: 2em;
-  padding-right: 2em;
+  height: 32em;
+  width: 40em;
 }
 
 .description:hover {
-  overflow-y: scroll
+  overflow-y: scroll;
 }
 
 .wallet {
@@ -63,17 +62,45 @@ body {
 #master,
 #visas {
   margin: 3rem;
-  border: 1px solid #f3f1eb;
   color: #abacaf;
   background: #ffffff;
   border-radius: 0.3rem;
+  height: 7rem;
+  width: 13rem;
+}
+
+#maestro:hover {
+  border: 1px solid rgb(162, 201, 216);
+  cursor: pointer;
+  height: 7rem;
+  width: 13rem;
+}
+
+#master:hover {
+  border: 1px solid rgb(162, 201, 216);
+  cursor: pointer;
+  height: 7rem;
+  width: 13rem;
+
+}
+
+#visas:hover {
+  border: 1px solid rgb(162, 201, 216);
+  cursor: pointer;
+  height: 7rem;
+  width: 13rem;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 17px;
 }
 
 #maestro p,
 #master p,
 #visas p {
   margin-left: 0.5rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .maestrocard,
@@ -83,7 +110,43 @@ body {
 }
 
 .expire {
-  margin-bottom: 0.5rem;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1.5px solid rgb(224, 224, 216);
+}
+
+.price {
+  font-size: 22px;
+  /* font-weight: 700; */
+  color: #818181;
+}
+
+.bal {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white;
+  border-radius: 10rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
 }
