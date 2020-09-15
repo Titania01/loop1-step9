@@ -133,6 +133,11 @@ h3 {
   font-size: 22px;
 }
 
+#span {
+  display: flex;
+  justify-content: space-between;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
