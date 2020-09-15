@@ -5,24 +5,66 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #f7cd75;
+  background-repeat: no-repeat;
+}
+
 .container {
   display: flex;
-  height: 40rem;
-  background: violet;
+  height: 35rem;
+  background: #ffffff;
   box-shadow: 2px grey;
-  width: 55vw;
+  width: 50vw;
   margin: 7rem auto;
 }
 
-.cards,
-.descriptions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.cards {
+  background: #f2f2f2;
 }
 
 .wallet {
-  /* display: flex; */
-  /* justify-content: center; */
-  align-items: space-between;
+  display: flex;
+  margin: 3rem;
+  color: #4c4b48;
+}
+
+.media {
+  margin-left: 6rem;
+  color: #4c4b48;
+}
+
+.maestrocard,
+.visa,
+.mastercard {
+  width: 4rem;
+}
+
+#maestro,
+#master,
+#visas {
+  margin: 3rem;
+  border: 1px solid #f3f1eb;
+  color: #abacaf;
+  background: #ffffff;
+  border-radius: 0.3rem;
+}
+
+#maestro p,
+#master p,
+#visas p {
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+.maestrocard,
+.mastercard,
+.visa {
+  margin: 0.5rem;
+}
+
+.expire {
+  margin-bottom: 0.5rem;
+  font-size: 12px;
+  font-weight: 600;
 }
