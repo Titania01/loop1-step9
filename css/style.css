@@ -138,6 +138,21 @@ h3 {
   justify-content: space-around;
 }
 
+.minuse {
+  /* width: 1rem; */
+  /* color: black; */
+}
+
+.oval {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #abacaf;
+}
+
 .elect {
   display: flex;
   justify-content: space-around;
