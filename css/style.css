@@ -135,7 +135,15 @@ h3 {
 
 #span {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.elect {
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  color: #818181;
+  font-weight: 700;
 }
 
 ::-webkit-scrollbar {
