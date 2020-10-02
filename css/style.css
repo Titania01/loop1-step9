@@ -17,6 +17,8 @@ body {
   box-shadow: 2px grey;
   max-width: 55rem;
   margin: 7rem auto;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .cards {
@@ -128,9 +130,25 @@ h3 {
   color: #818181;
 }
 
+.balla {
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .bal {
-  font-weight: 800;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 20px;
+  color: lightblue;
+}
+
+.bala {
+  font-size: 20px;
+  font-weight: 700;
+  color: lightgreen;
+}
+
+sup {
+  font-size: 14px;
 }
 
 #span {
@@ -156,10 +174,12 @@ h3 {
 .elect {
   display: flex;
   justify-content: space-around;
-  font-size: 13px;
+  font-size: 12px;
   color: #818181;
   font-weight: 700;
+  margin-bottom: 2rem;
 }
+
 
 ::-webkit-scrollbar {
   width: 10px;
